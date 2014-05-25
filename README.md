@@ -36,20 +36,20 @@ You will need to set up the working directory accordingly (modify the "setwd(...
 ### Part 1: Creation of data set 1 (CP1 requirements 1-4)  
 
 Step 1. Reading data from rawfiles and conversion to proper data types
-subject_id (1 line/record)
-  files:
-    ./UCI HAR Dataset/train/subject_train.txt
-    ./UCI HAR Dataset/test/subject_test.txt
+  - subject_id (1 line/record)
+  - files:
+    - ./UCI HAR Dataset/train/subject_train.txt
+    - ./UCI HAR Dataset/test/subject_test.txt
 activity performed during acquisition record (1 line/record)
-  files:
-    ./UCI HAR Dataset/activity_labels.txt , correspondance: int_id vs activity
-    ./UCI HAR Dataset/train/y_train.txt
-    ./UCI HAR Dataset/test/y_test.txt
+  - files:
+    - UCI HAR Dataset/activity_labels.txt , correspondance: int_id vs activity
+    - UCI HAR Dataset/train/y_train.txt
+    - UCI HAR Dataset/test/y_test.txt
 features, results of processing the rawdata  (1 line/record)
-  files:
-    ./UCI HAR Dataset/features.txt , column/variable names
-    ./UCI HAR Dataset/train/X_train.txt
-    ./UCI HAR Dataset/test/X_test.txt
+  - files:
+    - UCI HAR Dataset/features.txt , column/variable names
+    - UCI HAR Dataset/train/X_train.txt
+    - UCI HAR Dataset/test/X_test.txt
 
 Step 2. Merge the train and test data sets
 
